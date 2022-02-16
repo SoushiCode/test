@@ -10,7 +10,7 @@ ye=int(input('Enter the year of manufacture of your car: ').strip())
 x=[]
 y=[]
 #Connect to database
-cnx = mysql.connector.connect(user='root', password='azizam',
+cnx = mysql.connector.connect(user='root', password='',
                               host='127.0.0.1',
                               database='learn')
 cursor = cnx.cursor()
